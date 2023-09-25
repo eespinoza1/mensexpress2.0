@@ -1,0 +1,358 @@
+.garanty {
+  font-size: small;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #000000e9;
+  color: whitesmoke;
+  list-style: none;
+  white-space: nowrap; /* Evitará que los elementos se rompan en varias líneas */
+  overflow: hidden; /* Ocultar los elementos que desborden el contenedor */
+}
+.navbar{
+  background-color: rgba(222, 222, 14, 0.633);
+}
+
+.half-size-image {
+  width: 80%;
+}
+
+.logo {
+
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  width: 100%;
+}
+.carousel-slide{
+  width: 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.security {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.title {
+  display: grid;
+  justify-content: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 30px;
+  color: black;
+  list-style: none;
+}
+
+/* Establecer un contenedor que ocupe toda la pantalla */
+.split-container {
+  display: flex;
+  height: 100%;
+  /* 100% de la altura de la ventana */
+}
+
+/* Establecer el ancho de las secciones izquierda y derecha */
+.left-side,
+.right-side {
+  flex: 1;
+  padding: 20px;
+  /* Ambas secciones se expanden para llenar el espacio disponible */
+}
+
+/* Estiliza las secciones según sea necesario */
+.left-side {
+  background-color:rgb(250, 247, 247);
+}
+
+.right-side {
+  background-color: rgb(250, 247, 247);
+
+}
+
+.texto-azul {
+  color: rgb(6, 143, 247);
+}
+
+.disp {
+  width: 100%;
+  height: 30%;
+}
+
+.product-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  /* Añade margen inferior para separar productos */
+}
+
+/* Estilo para la imagen */
+.product-image {
+  max-width: 100px;
+  /* Ajusta el ancho máximo según tus necesidades */
+  height: auto;
+  margin-right: 20px;
+  /* Espacio entre la imagen y los detalles */
+}
+
+/* Estilo para los detalles del producto */
+.product-details {
+  flex-grow: 1;
+  /* Expande el contenido para llenar el espacio restante */
+  list-style: none;
+}
+
+.product-details-list {
+  list-style: none;
+}
+
+.porcentaje {
+  font-size: 15px;
+  margin-top: 13px;
+  margin-left: 50px;
+}
+
+/* Estilo para el título del producto */
+
+.titulo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+s .product-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 19px;
+  margin: 0 0px;
+}
+
+/* Estilo para el precio del producto */
+.product-price {
+  margin: 0 10px;
+  margin-left: 130px;
+}
+
+.mr-5 {
+  margin-top: 50px;
+  margin-right: 20px;
+  color: rgb(6, 143, 247);
+
+}
+
+/* Estilo para las puntuaciones con estrellas de los usuarios */
+.star-ratings {
+  margin-top: 10px;
+  margin-bottom: 1px;
+}
+
+.star-icon {
+  color: #f0d700;
+  /* Color de estrellas personalizable */
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+/* Estilo para el stock */
+.stock-info {
+  font-size: 14px;
+  color: #ffffff;
+  /* Color de texto personalizable */
+  margin-bottom: 10px;
+}
+
+/* Estilo para la descripción del producto */
+.product-description {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.boton-rectangular {
+  margin-left: 20px;
+  padding: 10px 150px;
+  background-color: #59AE43;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.boton-rectangular:hover {
+  background-color: #82e49a;
+  /* Cambia el color de fondo al pasar el ratón */
+}
+
+.visa {
+  margin-top: 10px;
+}
+.medio{
+ 
+  padding-left: 140px;
+}
+.text-red{
+  
+  color: red;
+}
+
+.garantee {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  /* Añade margen inferior para separar productos */
+}
+
+.pgarantee {
+  margin-left: 10px;
+}
+
+
+.split-container2 {
+
+  display: flex;
+  height: 20%;
+  /* 100% de la altura de la ventana */
+}
+
+/* Establecer el ancho de las secciones izquierda y derecha */
+.left-side2,
+.right-side2 {
+  flex: 1;
+  /* Ambas secciones se expanden para llenar el espacio disponible */
+}
+
+/* Estiliza las secciones según sea necesario */
+.left-side2 {
+  background-color: rgb(250, 247, 247);
+  /* Color de fondo de la izquierda */
+}
+
+.right-side2 {
+  background-color: rgb(250, 247, 247);
+  /* Color de fondo de la derecha */
+}
+
+.footer2 {
+
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+  background-color: #000000e9;
+  color: whitesmoke;
+  list-style: none;
+}
+
+/* Add your global styles here */
+
+/* Style for small screens (less than 600px) */
+@media (max-width: 360px) {
+
+  .container {
+    padding: 10px;
+  }
+
+  .garanty ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .security {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .checkout ul {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .split-container {
+    flex-direction: column;
+  }
+
+  .left-side {
+    text-align: center;
+  }
+
+  .right-side {
+    margin-top: 20px;
+    margin: auto;
+  }
+
+  .product-details {
+    text-align: center;
+  }
+
+  .disp {
+    width: 100%;
+    height: auto;  
+  }
+
+  .boton-rectangular {
+    margin: 10px auto;
+    width: 20%;
+    max-width: 20px;
+  }
+.visa{
+  flex-direction: column;
+    align-items: center;
+}
+  .split-container2 {
+    flex-direction: column;
+  }
+
+  .left-side2 {
+    text-align: center;
+  }
+
+  .right-side2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .garantee {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+ 
+}
+
+
+@media (min-width: 1025px) {
+ 
+}
+
+
+
